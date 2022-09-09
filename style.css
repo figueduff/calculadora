@@ -30,9 +30,10 @@ background-color: lightskyblue;
 	cursor: pointer;
 	display: inline-flex;
 	align-items: center;
-	width: 10px;
 	justify-content: center;
+	width: 48px;
 }
+
 .boton:hover {
 	background: linear-gradient(180deg, #e9e9e9 5%, #f9f9f9 100%);
 }
@@ -42,6 +43,7 @@ background-color: lightskyblue;
 	grid-template-columns: repeat(6, 1fr);
 	gap: 5px;
 	margin: 10px;
+
 }
 
 #visor{
