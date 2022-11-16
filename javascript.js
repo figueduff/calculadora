@@ -144,24 +144,3 @@ function factorial(dato) {
   console.log("factor", mumerofact);
   return mumerofact;
 }
-
-//const agregarCaracterDisplay = (dato) =>
-// display.textContent == null ||
-// display.textContent == "0" ||
-// display.textContent == "recupera_memoria" ||
-// display.textContent == "N°_grande/decimal" ||
-// display.textContent == "Ingrese_datos"
-//   ? (display.textContent = dato)
-//   : display.textContent.length < 16
-//   ? (display.textContent += dato)
-//   : (display.textContent = " Max_16_digitos ");
-
-// teclado.addEventListener("click", (event) => {
-//   const boton = event.target.classList.contains("especial");
-//   if (!boton) {
-//     return;
-//   }
-//   // aplicarOperacion(event.target.id);
-//   discriminarOperacion(event.target.id);
-//   console.log("levanto", event.target.id);
-// });
